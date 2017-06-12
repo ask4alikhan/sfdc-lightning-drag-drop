@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Card</members>
+        <members>DragDropContainer</members>
+        <members>harnessApp</members>
+        <members>pipeline</members>
+        <members>pipelineChange</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>bulma</members>
+        <name>StaticResource</name>
+    </types>
+    <version>36.0</version>
+</Package>
