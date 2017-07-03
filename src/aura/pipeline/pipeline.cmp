@@ -8,10 +8,10 @@
     
     <div class="column" ondrop="{!c.onDrop}" ondragover="{!c.allowDrop}">
         <div class="panel">
-            <div class="panel-header">
-                <p>{! v.title }</p>
+            <div class="panel-heading">
+                {! v.title }
             </div>
-            <div class="panel-body" >
+            <div class="panel-block column">
                 <aura:iteration items="{!v.items}" var="item">
                     <aura:if isTrue="{!item.status == v.title}">
                     	<c:Card item="{!item}"></c:Card>
